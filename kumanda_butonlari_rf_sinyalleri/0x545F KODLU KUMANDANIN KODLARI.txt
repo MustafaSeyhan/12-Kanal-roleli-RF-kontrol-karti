@@ -1,0 +1,41 @@
+----------------------------------------------------
+
+0x545F kodlu kumandanın 11 numaralı tuşu için veriler.
+
+0101 0100 0101 1111 1100 1111 0  sıralama soldan sağa ( genişler datalar 1 kabul ediliyor)
+
+-----------------------------------------------------------------------------  
+  
+0x545F kodlu kumandanın 2 numaralı tuşu için veriler.
+
+0101 0100 0101 1111 0000 1100 0  sıralama soldan sağa ( genişler datalar 1 kabul ediliyor)  
+-----------------------------------------------------------------------------  
+  
+0x545F kodlu kumandanın 7 numaralı tuşu için veriler.
+
+0101 0100 0101 1111 0011 1111 0  sıralama soldan sağa ( genişler datalar 1 kabul ediliyor)  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

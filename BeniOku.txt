@@ -1,0 +1,8 @@
+kullanılan kumanda 12 kanallı elcik kumanda adı ile geçiyor. Her kumandanın kendine özgü 16bit veya 20bit şifresi var. Bu devrede kullanılan kumandann kodu 0x545F dir. Kumandadan (SC2262 encoder entegreli) örneğin 4 tuşuna basıldığında 0x545F30 verisi ve sonunada bir bitlik "0" bilgisi eklenerek yollanıyor ki her veri paketi 25 bit oluyor. 
+tuşa basılı olduğu müddetçe bu veriler  ~15msn aralıklarla tekrar tekrar yollanıyor. verinin sonundaki 15msn lik boşluğu da hesaba katarsak her veri gönderme süresi;
+50 msn'lik 25 bit veri(25*2000usn) + 15msn bekleme ile yaklaşık 65 msn sürüyor. Yani tuş basılı olduğu müddetçe saniyede yaklaşık 15 defa veri yollanıyor.
+
+KULLANILAN PROTEUS VERSİYONU : 8.10 SP0
+
+PIC İÇİN KODLARIN YAZILDIĞI CCS C VERSİYONU : 5.083
+
